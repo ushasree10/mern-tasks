@@ -1,0 +1,47 @@
+.box{
+    margin: 10% 0% 0% 0%;
+    position : relative;
+    /* left: 10%; */
+}
+.vbar-border{
+    display:block;
+    width: 15%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+}
+.vbar-border a{
+    text-align: left;
+    display: block;
+    color:blue;
+    background-color:#96D4D4;
+    padding:8px 16px 8px 8px;
+    text-decoration: none;
+}
+.vbar-border a:hover{
+    background-color: orange;
+    color: white;
+}
+.hbar-border{
+    border: 1px solid black;
+    padding: 5px;
+    padding-right: 0%;
+    float: left;
+    margin-left:50px;
+    width: 370px;
+}
+.hbar-border a{
+    float: left;
+    display: block;
+    color:blue;
+    border-right:1px solid blue;
+    flex-wrap: wrap;
+    background-color:#d2cccc;
+    padding:8px 16px;
+    text-decoration: none;
+}
+.hbar-border a:hover{
+    background-color: gray;
+    color: white;
+}

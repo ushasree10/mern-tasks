@@ -1,0 +1,25 @@
+.outter{
+    margin-top: 7%;
+    width: 800px;
+    height: 430px;
+    background-color: rgba(165, 10, 77, 0.977);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.inner{
+    width: 500px;
+    height: 430px;
+    background-color: rgb(116, 5, 49);
+}
+.inner-table{
+    padding: 25px 0px 25px 0px;
+}
+tr > td{
+    
+    border-bottom: 15px solid rgb(116, 5, 49);
+}
+tr > td > label{
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+}

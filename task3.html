@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        .box {
+            border: 2px solid #1d1c1c; 
+            padding-left: 5px;
+            padding-bottom: 5px;
+            width:600px;
+            margin: 0 auto;
+            background-color: #e9eae4;
+        } 
+
+        .box a {
+            margin-right: 10px; /* Add space between links */
+        }
+    </style>
+</head>
+<body>
+    <div><a href="./index.html">Back to Index Page</a></div>
+    </br>
+    </br>
+
+    <div class="box">
+        <p>Click any of the following links:</p>  
+        <a href="https://www.example.com" target="_blank">Opens in New</a>
+        | <!-- Separator symbol -->
+        <a href="javascript:void(0);" onclick="location.reload();">Opens in Self</a>
+        | <!-- Separator symbol -->
+        <a href="javascript:void(0);" onclick="openParentPage();">Opens in Parent</a>
+        | <!-- Separator symbol -->
+        <a href="#top">Opens in Body</a>
+        | <!-- Separator symbol -->
+        <a href="mailto:recipient@example.com?subject=Hello%20from%20the%20Website&body=I%20hope%20you%20are%20doing%20well.">Send Email</a>
+        
+        <div id="top"></div> 
+    </div>
+</body>
+</html>

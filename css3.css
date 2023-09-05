@@ -1,0 +1,15 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    margin-top: 7%;
+}
+.table{
+    border-top: 1px solid rgb(230, 228, 228, 0.736);
+    border-left: 1px solid rgb(230, 228, 228, 0.736);
+    border-right: 1px solid rgb(230, 228, 228, 0.736);
+    border-bottom: 1px solid rgb(230, 228, 228, 0.736);
+}
+tr{
+    border-bottom: 1px solid rgba(219, 215, 215, 0.736);
+}

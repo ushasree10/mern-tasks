@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+       
+        h1{ 
+            color:#007bff   
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table, th, td {
+            border-collapse: collapse;
+            border: 1px solid #ccc; 
+            padding: 5px;
+        }
+
+        th,td {
+            text-align: left;
+        } 
+        select, input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="tel"], textarea {
+            width: 100%;
+           
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Include padding in the width calculation */
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        } 
+        .login-link {
+            text-align: right; 
+        }
+    </style>
+</head>
+<body>
+    <div><a href="./index.html">Back to Index Page</a></div>
+    </br>
+    </br>
+
+    <div >
+        <h1>Registration Form</h1>
+        <form>
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <td><input type="text" name="firstName" required></td>
+                </tr>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" name="lastName" required></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <th>Re-enter Password</th>
+                    <td><input type="password" name="rePassword" required></td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>
+                        <input type="radio" name="gender" value="male" required> Male
+                        <input type="radio" name="gender" value="female"> Female
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td><input type="number" name="age" required></td>
+                </tr>
+                <tr>
+                    <th>Phone Number</th>
+                    <td><input type="tel" name="phoneNumber"></td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><textarea name="address" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <th>State</th>
+                    <td><input type="text" name="state"></td>
+                </tr>
+                <tr>
+                    <th>Country</th>
+                    <td>
+                        <select name="country" > 
+                            <option value="" disabled selected>Select your country</option>
+                            <option value="usa">United States</option>
+                            <option value="canada">Canada</option>
+                            <option value="uk">United Kingdom</option>
+                            <option value="australia">Australia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Languages Known</th>
+                    <td>
+                        <label><input type="checkbox" name="languages" value="english"> English</label><br>
+                        <label><input type="checkbox" name="languages" value="kannada"> Kannada</label><br>
+                        <label><input type="checkbox" name="languages" value="hindi"> Hindi</label><br>
+                        <label><input type="checkbox" name="languages" value="telugu"> Telugu</label>
+                    </td>
+                </tr>
+                <tr> 
+                    <td colspan="2">
+                        <label><input type="checkbox" name="declaration" required> Hereby I declare all the given details are true.</label>
+                    </td>
+                </tr> 
+                <tr>  
+                    <td class="login-link" colspan="2"> 
+                        <a href="https://www.ethnus.com/login" target="_blank">Login to Ethnus website</a>
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

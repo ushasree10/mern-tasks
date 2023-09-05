@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css7.css">
+    <title>CSS-TASK-7</title>
+</head>
+<body>
+    <div style="position: relative; top:0px; "><a href="./index.html">Back to Index Page</a></div>
+    <center>
+        <div class="outter">
+            <form action="#" method="get" class="inner">
+                <table class="inner-table" border="0px" cellpadding="0px">
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" name="name" id="name" placeholder="your name" style="height: 20px; width: 170px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="your email" style="height: 20px; width: 170px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="password" id="password" style=" height: 20px; width: 170px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phoneno">Phone Number:</label></td>
+                        <td><input type="tel" name="phoneno" id="phoneno" style=" height: 20px; width: 170px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                            <label for="male">Male:</label><input type="radio" name="gender" id="male" style="cursor: pointer;">
+                            <label for="female">Female:</label><input type="radio" name="gender" id="female" style="cursor: pointer;">
+                            <label for="other">Other:</label><input type="radio" name="gender" id="other" style="cursor: pointer;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="language">language:</label></td>
+                        <td>
+                            <select name="language" id="language" style="height: 30px; width: 130px; cursor: pointer;">
+                                <option value="">Select language</option>
+                                <option value="kannada">Kannada</option>
+                                <option value="english">English</option>
+                                <option value="hindi">Hindi</option>
+                                <option value="tamil">Tamil</option>
+                                <option value="telugu">Telugu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="zipcode">Zip Code:</label></td>
+                        <td><input type="number" name="zipcode" id="zipcode" style="height: 20px; width: 170px;"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="about">About:</label></td>
+                        <td><textarea name="about" id="about" cols="21" rows="2" placeholder="Write about yourself"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Register" style="width:100%; padding: 5px; height: 10%; border-radius: 5px; font-size: large; font-weight: bold; border-color:white; cursor: pointer;"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
